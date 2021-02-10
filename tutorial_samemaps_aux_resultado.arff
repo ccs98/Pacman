@@ -1,0 +1,85 @@
+@relation InstanceResultListener
+
+@attribute Key_Dataset {all_data_pacman}
+@attribute Key_Run {1}
+@attribute Key_Scheme {weka.classifiers.bayes.NaiveBayes,weka.classifiers.lazy.IBk,weka.classifiers.lazy.KStar,weka.classifiers.rules.OneR,weka.classifiers.rules.PART,weka.classifiers.rules.ZeroR,weka.classifiers.trees.J48,weka.classifiers.trees.RandomForest}
+@attribute Key_Scheme_options {'','-K 1 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"','-K 3 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"','-K 5 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"','-B 20 -M a','-B 6','-M 2 -C 0.25 -Q 1','-C 0.25 -M 2','-P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1'}
+@attribute Key_Scheme_version_ID {5995231201785697655,-3080186098777067172,332458330800479083,-3459427003147861443,8121455039782598361,48055541465867954,-217733168393644444,1116839470751428698}
+@attribute Date_time numeric
+@attribute Number_of_training_instances numeric
+@attribute Number_of_testing_instances numeric
+@attribute Number_correct numeric
+@attribute Number_incorrect numeric
+@attribute Number_unclassified numeric
+@attribute Percent_correct numeric
+@attribute Percent_incorrect numeric
+@attribute Percent_unclassified numeric
+@attribute Kappa_statistic numeric
+@attribute Mean_absolute_error numeric
+@attribute Root_mean_squared_error numeric
+@attribute Relative_absolute_error numeric
+@attribute Root_relative_squared_error numeric
+@attribute SF_prior_entropy numeric
+@attribute SF_scheme_entropy numeric
+@attribute SF_entropy_gain numeric
+@attribute SF_mean_prior_entropy numeric
+@attribute SF_mean_scheme_entropy numeric
+@attribute SF_mean_entropy_gain numeric
+@attribute KB_information numeric
+@attribute KB_mean_information numeric
+@attribute KB_relative_information numeric
+@attribute True_positive_rate numeric
+@attribute Num_true_positives numeric
+@attribute False_positive_rate numeric
+@attribute Num_false_positives numeric
+@attribute True_negative_rate numeric
+@attribute Num_true_negatives numeric
+@attribute False_negative_rate numeric
+@attribute Num_false_negatives numeric
+@attribute IR_precision numeric
+@attribute IR_recall numeric
+@attribute F_measure numeric
+@attribute Matthews_correlation numeric
+@attribute Area_under_ROC numeric
+@attribute Area_under_PRC numeric
+@attribute Weighted_avg_true_positive_rate numeric
+@attribute Weighted_avg_false_positive_rate numeric
+@attribute Weighted_avg_true_negative_rate numeric
+@attribute Weighted_avg_false_negative_rate numeric
+@attribute Weighted_avg_IR_precision numeric
+@attribute Weighted_avg_IR_recall numeric
+@attribute Weighted_avg_F_measure numeric
+@attribute Weighted_avg_matthews_correlation numeric
+@attribute Weighted_avg_area_under_ROC numeric
+@attribute Weighted_avg_area_under_PRC numeric
+@attribute Unweighted_macro_avg_F_measure numeric
+@attribute Unweighted_micro_avg_F_measure numeric
+@attribute Elapsed_Time_training numeric
+@attribute Elapsed_Time_testing numeric
+@attribute UserCPU_Time_training numeric
+@attribute UserCPU_Time_testing numeric
+@attribute UserCPU_Time_millis_training numeric
+@attribute UserCPU_Time_millis_testing numeric
+@attribute Serialized_Model_Size numeric
+@attribute Serialized_Train_Set_Size numeric
+@attribute Serialized_Test_Set_Size numeric
+@attribute Coverage_of_Test_Cases_By_Regions numeric
+@attribute Size_of_Predicted_Regions numeric
+@attribute Summary {'Number of rules: 84\n','Number of leaves: 104\nSize of the tree: 159\n'}
+@attribute measureNumRules numeric
+@attribute measureTreeSize numeric
+@attribute measureNumLeaves numeric
+@attribute measureOutOfBagError numeric
+
+@data
+
+all_data_pacman,1,weka.classifiers.bayes.NaiveBayes,'',5995231201785697655,20190404.1843,433,139,47,92,0,33.81295,66.18705,0,0.134015,0.222357,0.433032,89.970285,122.537387,278.917432,742.808854,-463.891421,2.0066,5.343949,-3.337348,62.774375,0.451614,22.506436,0,0,0.047619,5,0.952381,100,1,34,0,0,0,-0.10992,0.590756,0.286166,0.338129,0.203179,0.796821,0.661871,0.331672,0.338129,0.295534,0.127021,0.684626,0.460748,0.304276,0.338129,0.019,0.038,0.0156,0.0156,15.6001,15.6001,20270,135325,46831,56.115108,31.294964,?,?,?,?,?
+all_data_pacman,1,weka.classifiers.lazy.IBk,'-K 1 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"',-3080186098777067172,20190404.1843,433,139,71,68,0,51.079137,48.920863,0,0.329074,0.164624,0.401082,66.610342,113.496167,278.917432,598.074354,-319.156921,2.0066,4.302693,-2.296093,107.730887,0.775042,38.624652,0.235294,8,0.161905,17,0.838095,88,0.764706,26,0.32,0.235294,0.271186,0.082138,0.540336,0.2637,0.510791,0.180696,0.819304,0.489209,0.532327,0.510791,0.487356,0.346532,0.666773,0.397086,0.471311,0.510791,0.001,0.051,0.0156,0.0156,15.6001,15.6001,138006,135325,46831,51.079137,16.666667,?,?,?,?,?
+all_data_pacman,1,weka.classifiers.lazy.IBk,'-K 3 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"',-3080186098777067172,20190404.1843,433,139,46,93,0,33.093525,66.906475,0,0.113496,0.212529,0.387777,85.993781,109.731232,278.917432,571.35153,-292.434098,2.0066,4.110443,-2.103842,70.903468,0.510097,25.420952,0.294118,10,0.190476,20,0.809524,85,0.705882,24,0.333333,0.294118,0.3125,0.108291,0.531232,0.2984,0.330935,0.218491,0.781509,0.669065,0.436256,0.330935,0.333393,0.149528,0.642106,0.39205,0.34214,0.330935,0.001,0.046,0,0.0156,0,15.6001,138022,135325,46831,66.906475,31.055156,?,?,?,?,?
+all_data_pacman,1,weka.classifiers.lazy.IBk,'-K 5 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"',-3080186098777067172,20190404.1843,433,139,45,94,0,32.374101,67.625899,0,0.110127,0.214962,0.367647,86.978097,104.03498,278.917432,402.35976,-123.442328,2.0066,2.894675,-0.888074,67.947488,0.488831,24.361148,0.323529,11,0.2,21,0.8,84,0.676471,23,0.34375,0.323529,0.333333,0.126136,0.593838,0.353653,0.323741,0.212973,0.787027,0.676259,0.428932,0.323741,0.319942,0.145765,0.67174,0.417387,0.32941,0.323741,0,0.055,0,0.0312,0,31.2002,138038,135325,46831,85.611511,42.326139,?,?,?,?,?
+all_data_pacman,1,weka.classifiers.lazy.KStar,'-B 20 -M a',332458330800479083,20190404.1843,433,139,52,87,0,37.410072,62.589928,0,0.178465,0.197498,0.375563,79.912067,106.275027,278.917432,2530.470834,-2251.553402,2.0066,18.204826,-16.198226,81.791538,0.588428,29.324642,0.294118,10,0.133333,14,0.866667,91,0.705882,24,0.416667,0.294118,0.344828,0.182862,0.708403,0.502691,0.374101,0.19625,0.80375,0.625899,0.510623,0.374101,0.376866,0.225854,0.701212,0.527371,0.396124,0.374101,0.001,1.239,0,1.060807,0,1060.8068,159589,135325,46831,82.014388,39.688249,?,?,?,?,?
+all_data_pacman,1,weka.classifiers.rules.OneR,'-B 6',-3459427003147861443,20190404.1843,433,139,46,93,0,33.093525,66.906475,0,0.112888,0.223022,0.472252,90.239374,133.635452,278.917432,99882,-99603.082568,2.0066,718.57554,-716.568939,48.104742,0.346077,17.246947,0.852941,29,0.485714,51,0.514286,54,0.147059,5,0.3625,0.852941,0.508772,0.319373,0.683613,0.345162,0.330935,0.218174,0.781826,0.669065,0.325282,0.330935,0.281876,0.110183,0.55638,0.288546,0.285514,0.330935,0.007,0,0,0,0,0,1558,135325,46831,33.093525,16.666667,?,?,?,?,?
+all_data_pacman,1,weka.classifiers.rules.PART,'-M 2 -C 0.25 -Q 1',8121455039782598361,20190404.1843,433,139,67,72,0,48.201439,51.798561,0,0.303937,0.185175,0.374784,74.925921,106.054522,278.917432,53761.500761,-53482.583328,2.0066,386.773387,-384.766787,92.928214,0.668548,33.317464,0.529412,18,0.314286,33,0.685714,72,0.470588,16,0.352941,0.529412,0.423529,0.191867,0.608964,0.359283,0.482014,0.173423,0.826577,0.517986,0.523235,0.482014,0.489468,0.32551,0.675834,0.422127,0.478253,0.482014,0.119,0.001,0.109201,0,109.2007,0,395076,135325,46831,64.028777,28.057554,'Number of rules: 84\n',84,?,?,?
+all_data_pacman,1,weka.classifiers.rules.ZeroR,'',48055541465867954,20190404.1843,433,139,44,95,0,31.654676,68.345324,0,0,0.247144,0.353388,100,100,278.917432,278.917432,0,2.0066,2.0066,0,0,0,0,0,0,0,0,1,105,1,34,?,0,?,?,0.5,0.244604,0.316547,0.316547,0.683453,0.683453,?,0.316547,?,?,0.5,0.25656,?,0.316547,0.001,0,0,0,0,0,1015,135325,46831,100,66.666667,?,?,?,?,?
+all_data_pacman,1,weka.classifiers.trees.J48,'-C 0.25 -M 2',-217733168393644444,20190404.1843,433,139,72,67,0,51.798561,48.201439,0,0.349151,0.169306,0.371731,68.504887,105.190711,278.917432,43042.362672,-42763.44524,2.0066,309.657285,-307.650685,108.358024,0.779554,38.849499,0.411765,14,0.180952,19,0.819048,86,0.588235,20,0.424242,0.411765,0.41791,0.233176,0.635154,0.333495,0.517986,0.164546,0.835454,0.482014,0.514074,0.517986,0.515286,0.353672,0.712133,0.445281,0.501791,0.517986,0.021,0,0.0156,0,15.6001,0,48334,135325,46831,71.223022,28.53717,'Number of leaves: 104\nSize of the tree: 159\n',104,159,104,?
+all_data_pacman,1,weka.classifiers.trees.RandomForest,'-P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1',1116839470751428698,20190404.1843,433,139,73,66,0,52.517986,47.482014,0,0.358327,0.200562,0.311663,81.151557,88.192804,278.917432,206.239321,72.678111,2.0066,1.483736,0.522864,83.835291,0.603132,30.057387,0.382353,13,0.133333,14,0.866667,91,0.617647,21,0.481481,0.382353,0.42623,0.270568,0.742857,0.559636,0.52518,0.16683,0.83317,0.47482,0.548193,0.52518,0.524509,0.370074,0.794602,0.586487,0.518824,0.52518,0.302,0.005,0.280802,0.0156,280.8018,15.6001,3081681,135325,46831,100,58.992806,?,?,?,?,-1

@@ -1,0 +1,113 @@
+Ficheros normales: 
+
+Test_keyboard_othermaps
+
+M5Rules
+Correlation coefficient                  0.9911
+Mean absolute error                     99.1389
+Root mean squared error                133.3839
+Relative absolute error                 10.0942 %
+Root relative squared error             10.7151 %
+Total Number of Instances              118     
+
+M5P
+Correlation coefficient                  0.9911
+Mean absolute error                     99.2601
+Root mean squared error                133.6035
+Relative absolute error                 10.1066 %
+Root relative squared error             10.7327 %
+Total Number of Instances              118     
+
+Test_keyboard_samemaps
+
+M5Rules
+Correlation coefficient                  0.9946
+Mean absolute error                     62.427 
+Root mean squared error                 80.814 
+Relative absolute error                 10.4604 %
+Root relative squared error              9.8714 %
+Total Number of Instances              121 
+
+M5P
+Correlation coefficient                  0.9952
+Mean absolute error                     57.8021
+Root mean squared error                 75.5574
+Relative absolute error                  9.6854 %
+Root relative squared error              9.2293 %
+Total Number of Instances              121     
+
+
+Test_tutorial_othermaps
+
+M5Rules
+Correlation coefficient                  0.9633
+Mean absolute error                    162.2972
+Root mean squared error                251.4498
+Relative absolute error                 30.6194 %
+Root relative squared error             40.7527 %
+Total Number of Instances              111   
+
+M5P
+Correlation coefficient                  0.9711
+Mean absolute error                    144.6968
+Root mean squared error                222.1677
+Relative absolute error                 27.2989 %
+Root relative squared error             36.0069 %
+Total Number of Instances              111 
+
+Test_tutorial_samemaps
+
+M5Rules
+Correlation coefficient                  0.9675
+Mean absolute error                     26.4658
+Root mean squared error                 54.2135
+Relative absolute error                  4.5026 %
+Root relative squared error              8.6721 %
+Total Number of Instances              139   
+
+M5P
+Correlation coefficient                  0.9675
+Mean absolute error                     26.4658
+Root mean squared error                 54.2135
+Relative absolute error                  4.5026 %
+Root relative squared error              8.6721 %
+Total Number of Instances              139  
+
+Ficheros sin atributos:
+
+Test_keyboard_othermaps
+
+M5Rules
+Correlation coefficient                  0.9965
+Mean absolute error                     44.1871
+Root mean squared error                 68.2102
+Relative absolute error                  7.413  %
+Root relative squared error              8.5599 %
+Total Number of Instances              118  
+
+M5P
+Correlation coefficient                  0.9965
+Mean absolute error                     44.1871
+Root mean squared error                 68.2102
+Relative absolute error                  7.413  %
+Root relative squared error              8.5599 %
+Total Number of Instances              118     
+
+Test_keyboard_samemaps
+
+M5Rules
+Correlation coefficient                  0.9961
+Mean absolute error                     36.407 
+Root mean squared error                 53.043 
+Relative absolute error                  8.511  %
+Root relative squared error              8.9772 %
+Total Number of Instances              121 
+
+M5P
+
+Correlation coefficient                  0.9961
+Mean absolute error                     36.407 
+Root mean squared error                 53.043 
+Relative absolute error                  8.511  %
+Root relative squared error              8.9772 %
+Total Number of Instances              121   

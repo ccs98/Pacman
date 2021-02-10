@@ -1,0 +1,36 @@
+@RELATION all_data_pacman
+
+		@ATTRIBUTE position-x NUMERIC
+		@ATTRIBUTE position-y NUMERIC
+		@ATTRIBUTE pacman_legal1 {West, Stop, East, North, South}
+		@ATTRIBUTE pacman_legal2 {West, Stop, East, North, South}
+		@ATTRIBUTE pacman_legal3 {West, Stop, East, North, South}
+		@ATTRIBUTE pacman_legal4 {West, Stop, East, North, South}
+		@ATTRIBUTE pacman_mov {West, Stop, East, North, South}
+		@ATTRIBUTE fantasmas NUMERIC
+		@ATTRIBUTE booleanP {True, False}
+		@ATTRIBUTE booleanG1 {True, False}
+		@ATTRIBUTE booleanG2 {True, False}
+		@ATTRIBUTE booleanG3 {True, False}
+		@ATTRIBUTE booleanG4 {True, False}
+		@ATTRIBUTE positiong1-x NUMERIC
+		@ATTRIBUTE positiong1-y NUMERIC
+		@ATTRIBUTE positiong2-x NUMERIC
+		@ATTRIBUTE positiong2-y NUMERIC
+		@ATTRIBUTE positiong3-x NUMERIC
+		@ATTRIBUTE positiong3-y NUMERIC
+		@ATTRIBUTE positiong4-x NUMERIC
+		@ATTRIBUTE positiong4-y NUMERIC
+		@ATTRIBUTE ghost1_legal {West, Stop, East, North, South}
+		@ATTRIBUTE ghost2_legal {West, Stop, East, North, South}
+		@ATTRIBUTE ghost3_legal {West, Stop, East, North, South}
+		@ATTRIBUTE ghost4_legal {West, Stop, East, North, South}
+		@ATTRIBUTE distanciaG1 NUMERIC
+		@ATTRIBUTE distanciaG2 NUMERIC
+		@ATTRIBUTE distanciaG3 NUMERIC
+		@ATTRIBUTE distanciaG4 NUMERIC
+		@ATTRIBUTE score NUMERIC
+		@ATTRIBUTE score_next NUMERIC
+		@ATTRIBUTE pacman_legal {West, Stop, East, North, South}
+		
+			@data
